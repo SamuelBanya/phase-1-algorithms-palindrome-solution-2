@@ -12,6 +12,10 @@ function isPalindrome(word) {
   return true;
 }
 
+// NOTE: Even another solution is to create an array from the string itself by using .split() on the string, then use .reverse(), and then join the resulting array elements
+// with .join() afterwards:
+// let reversedString = word.split('').reverse().join('');
+
 /*
   Add written explanation of your solution here
 */
